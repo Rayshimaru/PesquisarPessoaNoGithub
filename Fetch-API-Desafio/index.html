@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub API - buscando usuários com fetch</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+    <main>
+        <i class="devicon-github-original"></i>
+
+        <section class="container">
+            <header id="cabeca">
+
+                <h2>Buscar Usuário</h2>
+                <input type="text"  id="input-search" placeholder="Digite o nome do usuário no GitHub">
+                <input type="button" value="Buscar" id="btn-search"  onclick="click2()" on>
+                <div id="outras">
+
+                    <ul id="lista"></ul>
+                </div>
+
+            </header>
+
+            <div class="profile-data"></div>
+            <div class="events"></div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
